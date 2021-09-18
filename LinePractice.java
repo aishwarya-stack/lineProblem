@@ -27,6 +27,14 @@ Integer obj1 = new Integer(dis);
 Integer obj2 = new Integer(dis2);
 System.out.println(obj1.compareTo(obj2));
 System.out.println(obj1.equals(obj2));
+int retResult =  obj1.compareTo(obj2);        
+if(retResult > 0) {  
+   System.out.println("dis is greater than dis2");  
+} else if(retResult< 0) {  
+   System.out.println("dis is less than dis2");  
+} else {  
+   System.out.println("dis is equal to dis2");  
+}  
 	}
 
 }
