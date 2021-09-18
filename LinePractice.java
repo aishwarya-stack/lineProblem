@@ -22,6 +22,11 @@ System.out.println("first line===>"+dis);
 int dis2=(int) Math.sqrt((x4-x3)*(x4-x3) + (y4-y3)*(y4-y3));
 
 System.out.println("two distance===>"+dis2);
+
+Integer obj1 = new Integer(dis);
+Integer obj2 = new Integer(dis2);
+System.out.println(obj1.compareTo(obj2));
+System.out.println(obj1.equals(obj2));
 	}
 
 }
